@@ -1,4 +1,4 @@
-ul {
+ul{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +7,7 @@ ul {
   padding: 0;
 }
 
-li a {
+li a{
   height: 22.5rem;
   width: 20rem;
   border: 1px solid whitesmoke;
@@ -19,7 +19,7 @@ li a {
   color: #e72929;
 }
 
-li a:hover {
+li a:hover{
   opacity: 0.9;
   cursor: pointer;
 }
@@ -29,22 +29,22 @@ li a img{
   height: 14.5rem;
 }
 
-.content {
+.content{
   margin-top: 0.3rem;
   padding: 0.5rem 1rem;
   position: relative;
   height: 7rem;
 }
 
-.favorite {
+.favorite{
   position: absolute;
   top: 0.5rem;
-  height: 1rem;
+  right: 1rem;
   font-size: 1.2rem;
 }
 
 .favorite.not{
-  color: gray;
+  color: grey;
 }
 
 .stars{
@@ -66,7 +66,7 @@ li a img{
   background-color: whitesmoke;
   display: inline-block;
   font-size: 0.8rem;
-  color: gray;
+  color: grey;
   margin-right: 0.3rem;
   padding: 0 0.5rem;
   margin-top: 0.2rem;
@@ -83,7 +83,7 @@ li a img{
   bottom: 0;
   left: 0.9rem;
   background: white;
-  padding: 0.3 100% 0 0;
+  padding: 0.3rem 100% 0 0;
   color: #414141;
   margin-top: 0.7rem;
   font-size: 1.1rem;
